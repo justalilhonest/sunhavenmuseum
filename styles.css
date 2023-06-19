@@ -1,0 +1,110 @@
+body {
+    background: #FBFFFE;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+}
+
+img {
+    max-width: 100%;
+    width:100%;
+}
+
+header {
+    width:100%;
+    max-width:100%;
+    
+}
+
+.title {
+    text-align:center;
+    font-family: 'Lora', serif;
+    font-size: 30pt;
+    font-weight: 600;
+    font-style: Italic;
+}
+
+h2 {
+    text-align:center;
+    font-family: 'Lora', serif;
+    font-weight:bold;
+    
+}
+
+h4 {
+    text-align:center;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.container {
+    max-width:100%;
+    width:90%;
+    margin: auto;
+    background: #f4f4f4;
+}
+
+.container p {
+    text-align:center;
+}
+
+.sunhaven {
+    width:100%;
+    max-width:100%;
+    
+}
+
+.sunhaven td {
+     font-family: 'Raleway', sans-serif;
+}
+
+td img {
+    width:25px;
+    height:25px;
+}
+
+.rewards {
+    margin-top: 15px;
+
+    background-color:#fde7a5;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+
+.active, .rewards:hover {
+  background-color: #fbd04b; 
+}
+
+.panel {
+    background-color:#fde7a5;
+    padding: 0 18px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+
+.rewards:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.rewards:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.reimgs {
+    display:inline-block;
+    margin: auto;
+    width:30px;
+    height: auto;
+   
+}
+
+
